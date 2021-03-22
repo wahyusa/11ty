@@ -4,7 +4,7 @@
   "description": "Simple wahyu tampan",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development postcss tailwind.css -o wahyu.css",
+    "dev": "cross-env NODE_ENV=development postcss tailwind.css -o dev.css",
     "prod": "cross-env NODE_ENV=production postcss tailwind.css -o wahyu.css"
   },
   "repository": {
